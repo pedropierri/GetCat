@@ -177,17 +177,31 @@ html, body {
 }
 
 @media (max-width: 768px) {
-    .main-content {
-        padding: 15px;
-    }
-    .controls-section {
-        flex-direction: column;
-        width: 100%;
-        max-width: 400px;
-        border-radius: 20px;
-        padding: 20px;
-    }
-    .action-button {
-        width: 100%;
-    }
+.main-content {
+    padding: 15px;
+}
+
+.cat-display-section {
+    flex-grow: 1; 
+    width: 85%;
+    max-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    flex-grow: 1;
+}
+
+.controls-section {
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.action-button {
+    width: 100%;
+}
 }
