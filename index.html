@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetCat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon/download.png" type="image/x-icon">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>🐾 GetCat</h1>
+        <p>Your daily dose of feline cuteness.</p>
+    </header>
+
+    <main class="main-content">
+        
+        <section class="cat-display-section">
+            <div id="cat-image" class="cat-card">
+                <p>Click the button to generate a random cat photo!</p>
+            </div>
+        </section>
+
+        <section class="controls-section">
+            <div class="control-group">
+                <label for="is-gif" class="checkbox-label">
+                    <input type="checkbox" id="is-gif">
+                    Get an Animated GIF!
+                </label>
+            </div>
+
+            <button class="get-button action-button">Generate Cat! 😻</button>
+            <button id="download-button" class="action-button disabled" disabled>Download Image ⬇️</button>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
