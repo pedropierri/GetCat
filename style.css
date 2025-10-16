@@ -51,16 +51,12 @@ html, body {
 
 .cat-display-section {
     flex-grow: 1; 
-    width: 100%;
-    max-width: 800px;
+    width: 30%;
     max-height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-card);
     border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-    border: 5px solid var(--color-tertiary);
     overflow: hidden;
     transition: transform 0.3s ease;
     flex-grow: 1;
